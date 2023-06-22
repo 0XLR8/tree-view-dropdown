@@ -1,0 +1,22 @@
+.tree-node-wrapper{
+    $tree-node-color: #9c9c9c;
+
+    color: $tree-node-color;
+
+    .icon{
+        font-size: 20px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    .tree-node-inner{
+        box-shadow: 0px 0px 4px $tree-node-color;
+        font-weight: 600;
+
+        .trigger{
+            font-size: 40px;
+            color: #e8e8e8;
+            cursor: pointer;
+        }
+    }
+}
